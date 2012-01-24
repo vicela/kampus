@@ -3,5 +3,7 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
+#just adding some unused stuff
+
 #RewriteRule ^(.*)$ index.php?rt=$1 [L,QSA]
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
