@@ -1,0 +1,606 @@
+/* 
+    Document   : style
+    Created on : Jan 9, 2012, 8:54:27 AM
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+root { 
+    display: block;
+}
+
+
+#header-section{
+    background: url(../images/bg_head.png);
+    width: auto;
+    height: 110px;
+}
+
+#wrapper{
+    text-align: center
+}
+
+#nav{
+    background-image: url(../images/bg_nav.png);
+    width: 100%;
+    height: 34px;
+}
+
+#nav-elem li{
+    float: left;
+}
+
+#nav-elem{
+    width: 960px;
+    margin: auto;
+    height: 100%;
+    list-style: none
+}
+
+#bg{
+    background-image: url(../images/img_head.png);
+    background-position: center;
+    height: 90%;
+    background-repeat: no-repeat;
+}
+
+#content-section{
+    background-image: url(../images/grad2.gif);
+    background-repeat: repeat;
+    height: auto
+}
+
+#content-isi{
+    width: 960px;
+    height: auto;
+    border: 1px solid #eee;
+    border-top: 0;
+    margin: auto;
+    background-color: white;
+    padding: 20px 15px 15px 15px;
+}
+
+#slider-holder{
+    margin-bottom: 10px
+}
+
+#first-content{
+    height: auto;
+    width: 960px
+}
+
+#second-content{
+    height: auto;
+    width: 960px
+}
+
+#seputar-kampus{
+    width: 560px;
+    height: auto;
+    float: left;
+    margin: 6px 20px 6px 6px;
+}
+
+#rektor-greet{
+    width: 560px;
+    height: auto;
+    float: left;
+    margin: 6px 20px 6px 6px; 
+}
+
+#biaya-kuliah{
+    width: 560px;
+    height: auto;
+    float: left;
+    margin: 6px 20px 6px 6px; 
+}
+
+
+
+
+#laporan-kegiatan{
+    width: 360px;
+    height: auto;
+    float: left;
+    margin: 6px;
+}
+
+#seputar-kampus .header img{
+    width: 100%
+}
+
+#rektor-greet .header img{
+    width: 100%
+}
+
+#biaya-kuliah.header img{
+    width: 100%
+}
+
+
+
+/*#seputar-kampus .list{
+    height: 45%;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee
+}*/
+
+#seputar-kampus ul{
+    list-style: none
+}
+
+#seputar-kampus dl{
+    float: left;
+    width: 210px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#seputar-kampus li{
+    padding: 10px;
+    height: 190px
+}
+
+#seputar-kampus li img{
+    float: left
+}
+
+#seputar-kampus .list img{
+    float: left
+}
+
+#seputar-kampus .list .isi{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    padding: 5px 5px 5px 15px
+}
+
+#seputar-kampus #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat
+}
+
+#rektor-greet #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat;
+    padding: 20px
+}
+
+#biaya-kuliah #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat;
+    padding: 20px
+}
+
+#seputar-kampus .header{
+    background-image: url(../images/tag1.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eee
+}
+
+#rektor-greet .header{
+    background-image: url(../images/tag1.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eee
+}
+
+#biaya-kuliah .header{
+    background-image: url(../images/tag1.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eee
+}
+
+
+#seputar-kampus .see-more{
+    position: relative;
+    left: 245px;
+    bottom: 15px;
+}
+
+#seputar-kampus hr{
+    margin:0 10px 0 10px
+}
+
+#seputar-kampus p.title{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 5px
+}
+
+#laporan-kegiatan .header img{
+    width: 100%
+}
+
+/*#laporan-kegiatan .list{
+    height: 45%;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee
+}*/
+
+#laporan-kegiatan ul{
+    list-style: none
+}
+
+#laporan-kegiatan dl{
+    float: left;
+    width: 145px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#laporan-kegiatan li{
+    padding: 10px;
+    height: 115px
+}
+
+#laporan-kegiatan li img{
+    float: left
+}
+
+#laporan-kegiatan .list img{
+    float: left
+}
+
+#laporan-kegiatan .list .isi{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    padding: 5px 5px 5px 15px
+}
+
+#laporan-kegiatan #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat
+    
+}
+
+#laporan-kegiatan .header{
+    background-image: url(../images/tag2.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-left: 1px solid #eee
+}
+
+#laporan-kegiatan .see-more{
+    position: relative;
+    left: 145px;
+    bottom: 0;
+}
+
+hr{
+    margin:0 10px 0 10px;
+    border: 1px solid #eee
+}
+
+#laporan-kegiatan p.title{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 5px
+}
+
+
+#info-terbaru p.title{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+#info-terbaru #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat
+}
+
+#info-terbaru .header{
+    background-image: url(../images/tag1.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eee
+}
+
+#info-terbaru{
+    width: 560px;
+    height: auto;
+    float: left;
+    margin: 6px 20px 6px 6px;
+}
+
+#info-terbaru .header img{
+    width: 100%
+}
+
+
+#info-terbaru dl{
+    text-align: left;
+    margin-left: 30px;
+    height: 85px;
+    padding-top: 15px;
+    
+}
+
+dt{
+    color: brown;
+    font-size: 18px;
+    font-weight: bold
+}
+
+dd.tanggal{
+    color: brown;
+    font-size: 14px;
+    
+}
+
+#info-terbaru .see-more{
+    position: relative;
+    left: 245px;
+    bottom: 20px;
+}
+
+#pengumuman-agenda{
+    margin: 6px;
+    width: 360px
+}
+
+#pengumuman .header img{
+    width: 100%
+}
+
+#pengumuman .header{
+    background-image: url(../images/tag3.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eee
+}
+
+#pengumuman{
+    width: 170px;
+    float: left;
+    margin-right: 20px
+}
+
+#pengumuman #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat
+}
+
+#pengumuman .see-more{
+    position: relative;
+    left: 50px;
+    bottom: 0;
+}
+
+#agenda .see-more{
+    position: relative;
+    left: 50px;
+    bottom: 0;
+}
+
+#agenda .header img{
+    width: 100%
+}
+
+#agenda .header{
+    background-image: url(../images/tag3.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eee
+}
+
+#agenda{
+    width: 170px;
+    float: left
+}
+
+#agenda #content-holder{
+    border: 1px solid #eee;
+    border-top: 0;
+    height: auto;
+    background-image: url(../images/gradasi.png) ;
+    background-repeat: repeat
+}
+
+p.title{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+dl#right dt, dd{
+    font-size: 14px
+}
+
+dl#right{
+    height: 70px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 5px
+}
+
+
+#footer-section{
+    clear: both;
+    background: url(../images/bg_footer.png);
+    width: auto;
+    height: 210px;
+    margin: auto;
+    padding-top: 10px
+}
+
+#logo{
+    width: 750px;
+    position: relative;
+    bottom: 0;
+    right: 140px;
+}
+
+#nama-kampus{
+    position: relative;
+    bottom: 90px;
+    right: 115px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+#separator{
+    color: #acacac;
+    vertical-align: top;
+    position: relative;
+    height: 281px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#social-link{
+    position: relative;
+    bottom: 220px;
+    left: 400px;
+    margin: auto;
+    width: 28%
+}
+
+#social-link p{
+    color: white;
+    font-size: 18px
+}
+
+
+#alamat{
+    position: relative;
+    right: 415px;
+    bottom: 135px;
+    color: white;
+}
+
+#left-contents{
+    float: left;
+    width: 560px;
+    height: auto;
+    margin-right: 25px
+}
+
+#right-contents{
+    float: left;
+    width: 360px
+}
+
+.clear{
+    clear: both
+}
+
+
+#foto-rektor {
+    float: left
+}
+
+.nama-rektor{
+    font-size: 16px;
+    color: brown;
+    font-weight: bold
+}
+
+#greet-content{
+    height: auto;
+    text-align: justify;
+    width: auto;
+}
+
+#greet-holder{
+    padding: 10px
+}
+
+dd.isi{
+    text-indent: 50px
+}
+
+ul#nav-elem img{
+    -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.cf {
+	position:relative;
+	height:30px;
+	width:104px;
+	margin:0 auto;	
+}
+
+.bthome{
+    width: 75px
+}
+
+.cf img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;	
+	transition: opacity 1s ease-in-out;
+}
+
+.cf img.top:hover {
+	opacity:0;
+}		
+
+a{
+    cursor: pointer
+}
+
+#tag-line{
+    position: relative;
+    bottom: 100px;
+    right: 160px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+#biaya-kuliah #content-holder p{
+    line-height: 25px
+}

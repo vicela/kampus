@@ -1,0 +1,156 @@
+body {margin: 0; padding: 0; width: 1000px; font: 13px "Calibri";  color: #000;}
+input{font-size:13px; font-family:"Calibri";}
+textarea{font-size:13px; font-family:"Calibri";}
+select{font-size:13px; font-family:"Calibri";}
+/*sidenav*/
+ul.sidenav {font-size: 9px; float: left; margin: 0; padding: 0; list-style: none; background: #005094; border-bottom: 1px solid #3373a9; border-top: 1px solid #003867;}
+ul.sidenav li a{display: block; color: #fff; text-decoration: none; width: 130px; padding-left: 27px; background: url(../images/sidenav_.gif) no-repeat 5px 7px; border-top: 1px solid #3373a9;	border-bottom: 1px solid #003867;}
+ul.sidenav li a:hover {	background: #003867 url(../images/sidenav_.gif) no-repeat 5px 7px;	border-top: 1px solid #1a4c76;}
+ul.sidenav li span{	display: none; }
+ul.sidenav li a:hover span {display: block;	font-size: 0.8em;	padding: 10px 0;}
+/*images for pagination*/
+.flexigrid div.fbutton .add{background:url(../images/add.png) no-repeat center left;}
+.flexigrid div.fbutton .delete{background:url(../images/close.png) no-repeat center left;}
+.flexigrid div.fbutton .edit{background:url(../images/page_white_edit.png) no-repeat center left;}
+/*edit*/
+#titleEdit{background:url(flexigrid/images/wbg.gif) repeat-x top; border: 1px solid #ccc; border-bottom: 0px; border-top: 0px; font-weight: bold; display: block; overflow: hidden; white-space: nowrap; position: relative; height:20px; padding:5px 0 0 10px;}
+#bodyEdit{background-color:#FFF; width:843px; padding: 0 0 0 5px;border: 1px solid #acacac}
+#bodyEdit td{font-size: 13px}
+#backBody{background-color:#FFF; height:589px;}
+#backBody2{width:853px; height:334px; background-color:#fff; margin:0 0 0 147px; position:absolute;}
+#context{position:absolute; margin: 0;float: left}
+#menu-holder{
+    height: 576px;
+    width: 300px;
+    float: left
+}
+
+
+/*--navigation wrapper--*/
+#navwrapper {
+	margin:0 auto;
+	background-color: #2D2D2D;
+}
+
+#nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:4px;
+}
+
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--main nav links style--*/
+#nav a {
+	display:block;
+	padding:7px 7px 7px 7px;
+	color:#ccc;
+	text-decoration:none;
+}
+
+#nav a.dmenu {
+
+}
+
+#nav a.dmenu:hover {
+	color:#3366CC !important;
+	background-color: #fff !important;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li {position: relative;}
+
+/* hide from IE, mac */
+#nav li {position: static; width: auto;}
+/* end hiding from IE5 mac */
+
+/*--drop down menu styling--*/
+#nav li ul {
+	position: absolute;
+	display: none;
+	margin-left:-1px;
+	padding-bottom:10px;
+	background-color: #FFFFFF;
+	border: 1px solid #bbb;
+	border-top:none;
+	-moz-box-shadow: 0 0 5px #ddd;
+	-webkit-box-shadow: 0 0 5px #ddd;
+	box-shadow: 0 0 5px #ddd;
+	/*--make it top of all the elements on page, so that it can be visible--*/
+	z-index:5000;
+}
+
+#nav li:hover a, #nav a:focus,
+#nav a:active {
+	padding:7px 7px 7px 7px;
+	color:#fff;
+	background:#444;
+	text-decoration:none;
+}
+
+#nav li ul, #nav ul li  {
+	width: 10em;
+}
+
+/*--drop down menu styling is different from main nav, strict rule--*/
+#nav ul li a  {
+	color: #3366CC !important;
+	border-right: 0;
+}
+#nav ul li a:hover  {
+	color:#3366CC !important;
+	background-color: #eef3fb !important;
+	border-right: 0;
+}
+
+/*--the selected, current item in the navigation menu--*/
+#nav a.current{
+	color:#fff;
+	font-weight:bold;
+	background:#2D2D2D;
+	text-decoration:none;
+	border-top:2px solid #C33;
+	padding-bottom:5px; /*--removing 2px border from 7px padding--*/
+}
+
+#nav a.current:hover{
+	padding-bottom:5px; /*--removing 2px border from 7px padding--*/
+}
+
+#nav li:hover ul {
+	display: block;
+}
+
+#nav li:hover ul a{
+	color: #000000;
+	background-color: transparent;
+}
+
+#nav ul a:hover {
+	background-color: #606060!important;
+	color: #FFFFFF !important;
+}
+
+ /*--used in drop down menu items--*/
+.menuseprator{border-bottom:1px solid #ddd; margin:10px 0 10px 0;}
+
+/*--for showing down arrow in drop down menu item--*/
+.arrowdown{color#eee; font-size:0.5em;}  
+
+/*--for the left navigation menu--*/
+.floatleft{float:left;} 
+
+/*--for the right options navigation menu--*/
+.floatright{float:right} 
+
+/*--clear all floating, left and right--*/
+.clear{clear:both;} 
+
