@@ -10,6 +10,7 @@ class Biayakuliah extends CI_Controller{
         $syarat = reset($this->model->getWhere(array('menu' => 'syarat_pendaftaran'))->result());
         $this->load->view('biayakuliah-view', compact('biaya','syarat'));
     }
+    
 }
 /*
  * To change this template, choose Tools | Templates
